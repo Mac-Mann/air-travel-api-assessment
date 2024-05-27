@@ -2,6 +2,8 @@
 A technical assessment for VolumeFi
 
 ## How to Use
+First, be sure to run `npm install` and `npm start`.
+
 To use this API you can you a tool like Postman or curl, below is an example with curl:
 
 `curl -X POST http://localhost:8080/calculate -H "Content-Type: application/json" -d '{"flights": [["IND", "EWR"], ["SFO", "ATL"], ["GSO", "IND"], ["ATL", "GSO"]]}'`
